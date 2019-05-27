@@ -10,4 +10,4 @@ SELECT id, name FROM mytable;
 DELETE FROM mytable WHERE id = 1;
 SELECT id, name FROM mytable;
 DROP DATABASE mydb;
-SELECT count(1) from mytable; gives the number of records in the table
+SELECT count(1) from mytable; 
