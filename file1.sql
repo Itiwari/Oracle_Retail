@@ -1,6 +1,5 @@
-CREATE DATABASE mydb;
-CREATE TABLE mytable ( id INT PRIMARY KEY, name VARCHAR(20) );
-INSERT INTO mytable VALUES ( 1, 'A' );
-INSERT INTO mytable VALUES ( 2, 'B' );
-INSERT INTO mytable VALUES ( 3, 'C' );
-SELECT id, name FROM mytable WHERE id > 1;
+CREATE TABLE Customers ( id INT PRIMARY KEY, name VARCHAR(20) );
+INSERT INTO Customers VALUES ( 11, 'Alpha' );
+INSERT INTO Customers VALUES ( 22, 'Beta' );
+INSERT INTO Customers VALUES ( 33, 'Charlie' );
+SELECT id, name FROM Customers WHERE id > 12;
