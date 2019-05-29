@@ -5,6 +5,7 @@ public class fibo{
   int b = a;
   int n = 10;
   int k=0;
+          System.out.println ("Fibonacci Series upto 10");
     System.out.println (a+"\n"+b);
   for(int i=0;i<8;i++)
   {
