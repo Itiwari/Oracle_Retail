@@ -1,0 +1,12 @@
+CREATE TABLE Sample_Table_1 ( id INT PRIMARY KEY, name VARCHAR(20) );
+INSERT INTO Sample_Table_1 VALUES ( 1, 'Alpha' );
+INSERT INTO Sample_Table_1 VALUES ( 2, 'Beta' );
+INSERT INTO Sample_Table_1 VALUES ( 3, 'Gamma' );
+INSERT INTO Sample_Table_1 VALUES ( 4, 'Ele' );
+INSERT INTO Sample_Table_1 VALUES ( 5, 'Farsty' );
+INSERT INTO Sample_Table_1 VALUES ( 6, 'Gats' );
+INSERT INTO Sample_Table_1 VALUES ( 7, 'Harp' );
+INSERT INTO Sample_Table_1 VALUES ( 8, 'Ishita' );
+INSERT INTO Sample_Table_1 VALUES ( 9, 'Joker' );
+INSERT INTO Sample_Table_1 VALUES ( 10, 'Kryst' );
+SELECT id, name FROM Sample_Table_1 WHERE id > 1;
