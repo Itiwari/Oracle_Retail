@@ -1,1 +1,4 @@
-SELECT * FROM CUST_NAME;
+spool qwerty.txt
+SELECT * FROM CUST_NAME
+/
+spool off;
