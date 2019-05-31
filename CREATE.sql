@@ -1,0 +1,10 @@
+CREATE TABLE Example_1 ( id INT PRIMARY KEY, name VARCHAR(20) );
+INSERT INTO Example_1 VALUES ( 1, 'Alpha' );
+INSERT INTO Example_1 VALUES ( 2, 'Beta' );
+INSERT INTO Example_1 VALUES ( 3, 'Gamma' );
+INSERT INTO Example_1 VALUES ( 4, 'Ele' );
+CREATE TABLE Example_2 ( id INT PRIMARY KEY, name VARCHAR(20) );
+INSERT INTO Example_2 VALUES ( 1, 'Alpha' );
+INSERT INTO Example_2 VALUES ( 2, 'Beta' );
+INSERT INTO Example_2 VALUES ( 3, 'Gamma' );
+INSERT INTO Example_2 VALUES ( 4, 'Ele' ); 
