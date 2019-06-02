@@ -1,3 +1,4 @@
+spool C:\Users\itiwari\Desktop\file1.txt
 CREATE TABLE PEOPLE1 (
   EMPNO NUMBER(4,0), 
   ENAME VARCHAR2(10 BYTE), 
@@ -19,3 +20,5 @@ insert into PEOPLE1 (EMPNO,ENAME,JOB,MGR,HIREDATE,SAL,COMM,DEPTNO) values (7698,
 insert into PEOPLE1 (EMPNO,ENAME,JOB,MGR,HIREDATE,SAL,COMM,DEPTNO) values (7782,'CLARK','MANAGER',7839,to_date('09-JUN-81','DD-MON-RR'),2450,null,10);
 insert into PEOPLE1 (EMPNO,ENAME,JOB,MGR,HIREDATE,SAL,COMM,DEPTNO) values (7788,'SCOTT','ANALYST',7566,to_date('19-APR-87','DD-MON-RR'),3000,null,20);
 commit;
+/
+spool off;
